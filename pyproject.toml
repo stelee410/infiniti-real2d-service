@@ -1,0 +1,16 @@
+[project]
+name = "infiniti-real2d-service"
+version = "0.1.0"
+description = "Real2D rendering service for Infiniti Agent"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "pillow>=10.0.0",
+  "pydantic>=2.7.0",
+  "requests>=2.31.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
