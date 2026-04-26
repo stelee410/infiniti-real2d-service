@@ -11,6 +11,10 @@ dependencies = [
   "requests>=2.31.0",
 ]
 
+[tool.setuptools.packages.find]
+include = ["real2d_service*"]
+exclude = ["frames*", "tools*", "scripts*"]
+
 [tool.ruff]
 line-length = 100
 target-version = "py310"
